@@ -1,4 +1,4 @@
-package Coffee.Money;
+package coffeemoney;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
