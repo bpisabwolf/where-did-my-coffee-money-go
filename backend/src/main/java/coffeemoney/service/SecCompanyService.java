@@ -7,4 +7,10 @@ public class SecCompanyService {
         return company;
     }
 
+    //hardcoded Starbucks line
+    private static final String STARBUCKS_CIK = "0000829224";
+
+    public String getStarbucksCik() {
+        return STARBUCKS_CIK;
+    }
 }
