@@ -27,7 +27,7 @@ public class CompanyController {
     }
 
     //hardcoded version, to review later
-    @GetMapping("/api/companies/{company}")
+    @GetMapping("/api/companies/startest")
     public Map<String, String> getStarbucksCompany(@PathVariable String company) {
         String cik = secCompanyService.getStarbucksCik();
 
