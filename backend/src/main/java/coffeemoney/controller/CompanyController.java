@@ -25,4 +25,16 @@ public class CompanyController {
                 "status", "lookup not implemented yet");
 
     }
+
+    //hardcoded version, to review later
+    @GetMapping("/api/companies/{company}")
+    public Map<String, String> getStarbucksCompany(@PathVariable String company) {
+        String cik = secCompanyService.getStarbucksCik();
+
+        return Map.of(
+                "company", company,
+                "cik", cik,
+                "status", "lookup not implemented yet"
+        );
+    }
 }
